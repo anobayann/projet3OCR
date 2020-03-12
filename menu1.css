@@ -1,0 +1,73 @@
+/* police*/
+@font-face {
+    font-family: 'Helvetica', sans-serif;
+    src: url('Helvetica.ttf');
+}
+
+body
+{
+    font-size: 62,5%;
+    font-family: Helvetica;
+    margin: auto;
+    
+}
+/*header*/
+h1
+{
+    display: flex;
+    background: #00695C;
+    color: goldenrod;
+    margin-top: 0px;
+    font-size: 2rem;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    justify-content: center;
+    
+   
+}
+/* bolc principal*/
+
+.main-bloc
+{
+    display: block;
+    width: 80%;
+    margin-bottom: 60px;
+    
+    
+    background-color: pink;
+}
+/*footer*/
+
+.main-footer
+{
+    display: flex;
+    
+    height: 2rem;
+    background: #00695C;
+    
+    
+    color: goldenrod;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+    
+    position: fixed;
+    bottom: 0px;
+   
+    width: 100%;
+    
+    
+    
+}
+h5
+{
+    color: goldenrod;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 2rem;
+ 
+}
