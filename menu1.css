@@ -123,6 +123,21 @@ a
     
 }
 
+.main-bloc__section__titles:hover
+{
+    
+    border-bottom: solid 3px black;
+    width: 25%;
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
 .main-bloc__section__food
 {
     width: 90%;
