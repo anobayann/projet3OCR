@@ -42,11 +42,13 @@ a
     
     
     width: 90%;
+    margin-top: 2rem;
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;  
     background-color: #ffeada;
     font-family: 'kalam', cursive;
+    box-shadow: 0px 0px 10px #c7c7c7;
     
 }
 .main-bloc *
@@ -235,6 +237,10 @@ a
         right: 5%;
         width: 30%;
         
+    }
+    .main-bloc
+    {
+        width: 75%;
     }
     
 }
