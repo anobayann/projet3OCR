@@ -1,127 +1,281 @@
-/* police*/
-@font-face {
-    font-family: 'Helvetica', sans-serif;
-    src: url('Helvetica.ttf');
+html
+{
+    font-size: 62.5%;
 }
-
 body
 {
-    font-size: 62,5%;
-    font-family: Helvetica;
+    
     margin: auto;
-}
-/*header*/
-h1
-{
-    display: flex;
-    background: #00695C;
-    color: goldenrod;
-    margin-top: 0px;
-    font-size: 2rem;
-    align-items: center;
-    width: 100%;
-    height: 4rem;
-    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8;
     
-   
-}
-
-/*nav*/
-ul
-{
-    margin-top: 1rem;
-    list-style-type: none;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    
-    
-}
-li
-{
-    display: flex;
-    width: 8rem;
-    height: 12rem;
-    
-    margin-right: 2%;
-    
-    margin-bottom: 2%;
-    text-align: center;
-    align-items: center;
-    box-shadow: 2px 2px 1px 1px;
-    
-}
-
-
-
-
-
-li:first-child
-{
-    background: pink; 
-}
-
-li:first-child h2, li:first-child h3, i 
-{
-    color: black;
-}
-li:first-child h3{
-    margin-top: 0px;
-    
-}
-/*section prochainement*/
-h4
-{
-    display: flex;
-    background: #00695C;
-    color: goldenrod;
-    width: 10rem;
-    height: 30px;
-    border-radius: 7px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    font-weight: 600;
-    
-    
-}
-/*footer*/
-
-footer
-{
-    display: flex;
-    
-    height: 2rem;
-    background: #00695C;
-    
-    
-    color: goldenrod;
-    
-    justify-content: space-between;
-    align-items: center;
-    
-    
-   
-    
-    position: fixed;
-    bottom: 0px;
-   
-    width: 100%;
-    
-    
-    
-}
-h5
-{
-    color: goldenrod;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    line-height: 2rem;
- 
 }
 a
 {
     text-decoration: none;
 }
-@media and all 
+/*header*/
+.header
+{
+    display: flex;
+    background: #00695C;
+    color: goldenrod;
+    margin-top: 0px;
+    font-size: 3.5rem;
+    align-items: center;
+    height: 6rem;
+    justify-content: center;
+    margin-bottom: 0px; 
+    font-weight: 700;
+}
+
+
+/*nav*/
+
+
+.meal
+{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 40rem; 
+    margin-top: 4rem;
+    
+    
+}
+
+
+.meal li
+{
+
+    position: relative;
+    box-shadow: 0px 0px 10px #c7c7c7;
+    margin:3%;    
+    
+}
+.meal a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 18rem;   
+    transition: 0.5s;
+    
+}
+.meal a:hover
+{
+    transform: scale(1.3);
+    opacity: 0.7;
+    
+}
+.meal h3
+{
+    margin-bottom: 0;
+}
+
+
+.meal--meal-1
+{
+    background: #ffeada; 
+}
+
+.meal--meal-1 i
+{
+    
+    font-size: 2rem;
+    background: linear-gradient(to right,#f00d0d    
+    ,#fdc270);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.meal--meal-1 h3{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    font-family: 'Devonshire', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.5rem;
+}
+.meal--meal-1 h2
+{
+    font-family: 'itim', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    color: black;
+    margin-top: 0px;  
+}
+.meal--meal-2
+{
+    background: #f1e0e6;
+}
+
+.meal--meal-2 h3
+{
+    font-family: 'kurale', sans-serif;
+    font-size: 1rem;
+    background: linear-gradient(to right,#fb5300    
+    ,#3333ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+    
+}
+.meal--meal-2 h2
+{
+    font-family: 'abril fontface', sans-serif;
+    color: #e2a552;    
+}
+.meal--meal-3
+{
+    background: #f0f0f0;
+}
+.meal--meal-3 h3
+{
+    font-family: 'dancing script', sans-serif;
+    
+    background: linear-gradient(to right,#262a9f    
+    ,#3397af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.meal--meal-3 h2
+{
+    font-family: 'chilanka', sans-serif;
+    
+    color: #3397af;
+}
+.meal--meal-4
+{
+    background: #fff2f7;
+}
+.meal--meal-4 h3
+{
+    font-family: 'kaushan script', sans-serif;
+   
+    color: #3da33d;
+    background: linear-gradient(to right,#336d33  
+    ,#9fff4c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.meal--meal-4 h2
+{
+    font-family: 'chilanka', sans-serif;
+   
+    color: #3da33d;
+    
+}
+
+/*section prochainement*/
+.btn-next
+{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+.btn-next__saving
+{
+    display: flex;
+    background: #00695C;
+    color: goldenrod;
+    width: 18rem;
+    height: 30px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    
+    
+}
+
+/*footer*/
+
+.footer
+{
+    display: flex;
+    height: 3rem;
+    background: #00695C;
+    color: goldenrod;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    
+    
+    
+    
+}
+.footer h5
+{
+    color: goldenrod;
+    margin: 0rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+ 
+}
+
+@media (min-width: 1010px)
+{
+    .meal a
+    {
+       width: 18rem;
+        height: 24rem;
+        font-size: 170%;
+        
+    }
+    .meal a:hover
+    {
+        transform: scale(1.2)
+    }
+    .meal--meal-1 i
+    {
+        font-size:  3.4rem;
+    }
+    .meal--meal-1 h3
+    {
+        font-size: 2.35rem;
+    }
+    .meal--meal-2 h3
+    {
+        font-size: 1.6rem;
+    }
+   
+    
+}
+@media (min-width: 768px)
+{
+    .header
+    {
+        font-size: 4.48rem;
+        height: 77px;
+        
+    }
+    .footer h5
+    {
+        font-size: 1.664rem;
+        
+    }
+    .footer
+    {
+        height: 38.39px;
+    }
+    .btn-next h4
+    {
+        font-size: 1.664rem;
+    }
+    
+}
+
+    

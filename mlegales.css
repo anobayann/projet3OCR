@@ -1,0 +1,65 @@
+/* police*/
+
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8;
+    
+}
+a
+{
+    text-decoration: none;
+}
+/*header*/
+.header
+{
+    display: flex;
+    background: #00695C;
+    color: goldenrod;
+    margin-top: 0px;
+    font-size: 3.5rem;
+    align-items: center;
+    height: 6rem;
+    justify-content: center;
+    margin-bottom: 0px; 
+    font-weight: 700;
+}
+.bigtitle
+{
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*footer*/
+
+.footer
+{
+    display: flex;
+    height: 3rem;
+    background: #00695C;
+    color: goldenrod;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    
+    
+    
+}
+.footer h5
+{
+    color: goldenrod;
+    margin: 0rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+ 
+}
+
