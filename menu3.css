@@ -87,7 +87,7 @@ a
 }
 
 
-.main-bloc__section__titles1
+.main-bloc__section__titles
 {
     font-size: 2.5rem;
     margin-bottom: 0;
@@ -97,7 +97,7 @@ a
     
 
 }
-.main-bloc__section__titles1::before
+.main-bloc__section__titles--1::before
 {
     content: "";
     background-color: #070c9a;
@@ -109,7 +109,7 @@ a
     border-radius: 80%;
     
 }
-.main-bloc__section__titles1::after
+.main-bloc__section__titles--1::after
 {
     content: "";
     background-color: #070c9a;
@@ -122,17 +122,8 @@ a
     
 }
 
-.main-bloc__section__titles2
-{
-    font-size: 2.5rem;
-    margin-bottom: 0;
-    max-width: 25%;
-    text-align: center;
-    
-    
 
-}
-.main-bloc__section__titles2::before
+.main-bloc__section__titles--2::before
 {
     content: "";
     background-color: #166fb1;
@@ -144,7 +135,7 @@ a
     border-radius: 80%;
     
 }
-.main-bloc__section__titles2::after
+.main-bloc__section__titles--2::after
 {
     content: "";
     background-color: #166fb1;
@@ -157,17 +148,8 @@ a
     
 }
 
-.main-bloc__section__titles3
-{
-    font-size: 2.5rem;
-    margin-bottom: 0;
-    max-width: 25%;
-    text-align: center;
-    
-    
 
-}
-.main-bloc__section__titles3::before
+.main-bloc__section__titles--3::before
 {
     content: "";
     background-color: #1cbaea;
@@ -179,7 +161,7 @@ a
     border-radius: 80%;
     
 }
-.main-bloc__section__titles3::after
+.main-bloc__section__titles--3::after
 {
     content: "";
     background-color: #1cbaea;
@@ -259,7 +241,7 @@ a
     
     
 }
-.footer h5
+.footer__wiggle
 {
     color: goldenrod;
     margin: 0rem 2rem;
@@ -267,7 +249,27 @@ a
     font-weight: 600;
  
 }
+/*animation*/
 
+.main-bloc__section__food::after
+{
+    content: "";
+    background: currentcolor;
+    width: 25%;
+    height: 2px;
+    position: absolute;
+    top: 85px;
+    left: 38%;
+    transform-origin: 0 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    
+}
+.main-bloc__section__food:hover::after
+{
+    transform: scaleX(1);
+    
+}
 @media (min-width: 768px)
 {
     .main-bloc__section__food li

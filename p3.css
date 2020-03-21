@@ -40,8 +40,8 @@ a
     padding-left: 0px;
     flex-flow: wrap;
     justify-content: center;
-    align-items: center;
-    min-height: 40rem; 
+    align-items: flex-start;
+    min-height: 35rem; 
     margin-top: 4rem;
     
     
@@ -79,12 +79,12 @@ a
 }
 
 
-.meal--meal-1
+.meal__meal-1
 {
     background: #ffeada; 
 }
 
-.meal--meal-1 i
+.meal__meal-1 i
 {
     
     font-size: 2rem;
@@ -94,7 +94,7 @@ a
     -webkit-text-fill-color: transparent;
 }
 
-.meal--meal-1 h3{
+.meal__meal-1 h3{
     margin-top: 0px;
     margin-bottom: 1rem;
     font-family: 'Devonshire', sans-serif;
@@ -102,7 +102,7 @@ a
     color: black;
     font-size: 1.5rem;
 }
-.meal--meal-1 h2
+.meal__meal-1 h2
 {
     font-family: 'itim', sans-serif;
     text-transform: uppercase;
@@ -110,12 +110,12 @@ a
     color: black;
     margin-top: 0px;  
 }
-.meal--meal-2
+.meal__meal-2
 {
     background: #f1e0e6;
 }
 
-.meal--meal-2 h3
+.meal__meal-2 h3
 {
     font-family: 'kurale', sans-serif;
     font-size: 1rem;
@@ -127,16 +127,16 @@ a
     
     
 }
-.meal--meal-2 h2
+.meal__meal-2 h2
 {
     font-family: 'abril fontface', sans-serif;
     color: #e2a552;    
 }
-.meal--meal-3
+.meal__meal-3
 {
     background: #f0f0f0;
 }
-.meal--meal-3 h3
+.meal__meal-3 h3
 {
     font-family: 'dancing script', sans-serif;
     
@@ -145,17 +145,17 @@ a
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.meal--meal-3 h2
+.meal__meal-3 h2
 {
     font-family: 'chilanka', sans-serif;
     
     color: #3397af;
 }
-.meal--meal-4
+.meal__meal-4
 {
     background: #fff2f7;
 }
-.meal--meal-4 h3
+.meal__meal-4 h3
 {
     font-family: 'kaushan script', sans-serif;
    
@@ -166,7 +166,7 @@ a
     -webkit-text-fill-color: transparent;
 }
 
-.meal--meal-4 h2
+.meal__meal-4 h2
 {
     font-family: 'chilanka', sans-serif;
    
@@ -217,7 +217,7 @@ a
     
     
 }
-.footer h5
+.footer__wiggle
 {
     color: goldenrod;
     margin: 0rem 2rem;
@@ -298,7 +298,7 @@ content: '';
         height: 77px;
         
     }
-    .footer h5
+    .footer__wiggle
     {
         font-size: 1.664rem;
         
@@ -311,6 +311,7 @@ content: '';
     {
         font-size: 1.664rem;
     }
+   
     
 }
 

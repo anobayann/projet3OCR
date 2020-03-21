@@ -29,13 +29,13 @@ a
     font-weight: 700;
 }
 
-.title-header
+.resto-title-header
 {
     text-align: center;
     margin-bottom: 0.5rem;
     font-size: 1.8rem;
 }
-/* bolc principal*/
+/* bloc principal*/
 
 .main-bloc 
 {
@@ -74,7 +74,7 @@ a
     
 }
 
-.main-bloc__header--title
+.main-bloc__header__title
 {
     font-family: 'devonshire', cursive;
     font-size: 3rem;
@@ -120,23 +120,11 @@ a
     position: absolute;
     right: 2rem;
     border-radius: 80%;
+   
     
 }
 
-.main-bloc__section__titles:hover
-{
-    
-    border-bottom: solid 3px black;
-    width: 25%;
-    
-    
-    
-    
-    
-    
-    
-    
-}
+
 
 .main-bloc__section__food
 {
@@ -192,13 +180,6 @@ a
     -webkit-text-fill-color: transparent;
 }
 
-    
-    
-     
-    
-
-
-
 
 
 
@@ -221,7 +202,7 @@ a
     
     
 }
-.footer h5
+.footer__wiggle
 {
     color: goldenrod;
     margin: 0rem 2rem;
@@ -229,6 +210,29 @@ a
     font-weight: 600;
  
 }
+
+/*animation*/
+
+.main-bloc__section__food::after
+{
+    content: "";
+    background: black;
+    width: 25%;
+    height: 2px;
+    position: absolute;
+    top: 85px;
+    left: 38%;
+    transform-origin: 0 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    
+}
+.main-bloc__section__food:hover::after
+{
+    transform: scaleX(1);
+    
+}
+
 
 @media (min-width: 768px)
 {
@@ -238,10 +242,7 @@ a
         justify-content: space-between;
         
     }
-    html
-    {
-        font-size: 80%;
-    }
+    
     .main-bloc__section__titles::before
     {
         left: 5%;
@@ -256,6 +257,10 @@ a
     .main-bloc
     {
         width: 75%;
+    }
+    html
+    {
+        font-size: 80%;
     }
     
 }

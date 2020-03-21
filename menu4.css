@@ -189,7 +189,7 @@ a
     
     
 }
-.footer h5
+.footer__wiggle
 {
     color: goldenrod;
     margin: 0rem 2rem;
@@ -198,6 +198,27 @@ a
  
 }
 
+/*animation*/
+
+.main-bloc__section__food::after
+{
+    content: "";
+    background: currentcolor;
+    width: 25%;
+    height: 2px;
+    position: absolute;
+    top: 85px;
+    left: 38%;
+    transform-origin: 0 0;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    
+}
+.main-bloc__section__food:hover::after
+{
+    transform: scaleX(1);
+    
+}
 @media (min-width: 768px)
 {
     .main-bloc__section__food li
