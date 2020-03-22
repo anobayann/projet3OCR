@@ -13,7 +13,9 @@ body
 a
 {
     text-decoration: none;
+   
 }
+
 /*header*/
 .header
 {
@@ -275,15 +277,15 @@ content: '';
     {
         transform: scale(1.2)
     }
-    .meal--meal-1 i
+    .meal__meal-1 i
     {
         font-size:  3.4rem;
     }
-    .meal--meal-1 h3
+    .meal__meal-1 h3
     {
         font-size: 2.35rem;
     }
-    .meal--meal-2 h3
+    .meal__meal-2 h3
     {
         font-size: 1.6rem;
     }

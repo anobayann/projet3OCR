@@ -199,26 +199,27 @@ a
 }
 
 /*animation*/
-
-.main-bloc__section__food::after
+.main-bloc__section__titles__underline::after
 {
     content: "";
-    background: currentcolor;
-    width: 25%;
+    border-bottom: 2px solid currentcolor;
+    width: 100%;
     height: 2px;
-    position: absolute;
-    top: 85px;
-    left: 38%;
-    transform-origin: 0 0;
+    
+    transform-origin: 0% 100%;
     transform: scaleX(0);
-    transition: transform 0.5s;
+    transition: transform 1s;
     
 }
-.main-bloc__section__food:hover::after
+.main-bloc__section__titles__underline:hover::after
 {
     transform: scaleX(1);
     
 }
+
+
+
+
 @media (min-width: 768px)
 {
     .main-bloc__section__food li
